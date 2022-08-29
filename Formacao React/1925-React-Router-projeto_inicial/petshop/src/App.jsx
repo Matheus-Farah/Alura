@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import Home from "./pages/Home";
 import Sobre from "./pages/Sobre";
+import Categoria from "./pages/Categoria";
 import Post from "./pages/Post";
 import Pagina404 from "./pages/Pagina404";
 
@@ -18,6 +19,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/sobre" component={Sobre} />
+        <Route path="/categoria/:id" component={Categoria} />
         <Route path="/posts/:id" component={Post} />
         <Route component={Pagina404} />
       </Switch>
