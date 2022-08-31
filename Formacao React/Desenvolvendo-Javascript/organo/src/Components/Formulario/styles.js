@@ -10,7 +10,7 @@ export const FormInterior = styled.form`
     max-width: 80%;
 
     background-color: #F2F2F2;
-    box-shadow: 8px 8px 16px rgba(0,0,0, 0.08);
+    box-shadow: 8px 8px 16px rgba(0,0,0, 0.08 );
 
     border-radius: 20px;
 
