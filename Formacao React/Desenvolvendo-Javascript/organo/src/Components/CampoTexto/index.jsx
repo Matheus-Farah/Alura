@@ -2,7 +2,9 @@ import React from "react";
 
 import { Campo, Container, Texto } from "./styles";
 
+
 export const CampoTexto = (props) => {
+  
   const aoDigitado = (evento) => {
     props.aoAlterado(evento.target.value);
   };

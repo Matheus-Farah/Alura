@@ -41,27 +41,27 @@ export const Formulario = (props) => {
           label="Nome"
           placeholder="Digite o seu nome"
           valor={nome}
-          aoALterado={(valor) => setNome(valor)}
+          aoAlterado={(valor) => setNome(valor)}
         />
         <CampoTexto
           obrigatorio={true}
           label="Cargo"
           placeholder="Digite o seu cargo"
           valor={cargo}
-          aoALterado={(valor) => setCargo(valor)}
+          aoAlterado={(valor) => setCargo(valor)}
         />
         <CampoTexto
           label="Imagem"
           placeholder="Digite o endereço da imagem"
           valor={imagem}
-          aoALterado={(valor) => setImagem(valor)}
+          aoAlterado={(valor) => setImagem(valor)}
         />
         <ListaSuspensa
           obrigatorio={true}
           label="Time"
           itens={times}
           valor={time}
-          aoALterado={(valor) => setTime(valor)}
+          aoAlterado={(valor) => setTime(valor)}
         />
         <Botao>Criar Card</Botao>
       </FormInterior>
