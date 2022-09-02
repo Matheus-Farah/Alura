@@ -9,19 +9,16 @@ import {
   Rodape,
 } from "./styles";
 
-export const CardColaborador = () => {
+export const CardColaborador = ({ imagem, nome, cargo, corDeFundo }) => {
   return (
     <Colaborador>
-      <Cabecalho>
-        <FotoColaborador
-          src="https://github.com/Matheus-Farah.png"
-          alt="Matheus Farah"
-        />
+      <Cabecalho style={{ backgroundColor: corDeFundo }}>
+        <FotoColaborador src={imagem} alt={nome} />
       </Cabecalho>
 
       <Rodape>
-        <NomeColaborador>Matheus Farah</NomeColaborador>
-        <CargoColaborador>Desenvolvedor Front End</CargoColaborador>
+        <NomeColaborador>{nome}</NomeColaborador>
+        <CargoColaborador>{cargo}</CargoColaborador>
       </Rodape>
     </Colaborador>
   );

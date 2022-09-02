@@ -15,3 +15,13 @@ export const Titulo = styled.h2`
 
   padding-bottom: 8px;
 `;
+
+export const Colaboradores = styled.div`
+  display: flex;
+
+  justify-content: space-around;
+
+  margin-top: 32px;
+
+  flex-wrap: wrap;
+`;
