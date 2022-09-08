@@ -2,12 +2,16 @@ import React from "react";
 
 import { FormBotao } from "./styles";
 
-export class Botao extends React.Component<{
+interface Props {
   texto: string;
   type?: "button" | "submit" | "reset" | undefined;
-}> {
-  render() {
-    const { type = "button" } = this.props;
-    return <FormBotao type={type}>{this.props.texto}</FormBotao>;
-  }
+  onClick?: () => void;
 }
+
+export const Botao = ({ onClick, type, texto }: Props) => {
+  return (
+    <FormBotao onClick={onClick} type={type}>
+      {texto}
+    </FormBotao>
+  );
+};
