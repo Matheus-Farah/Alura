@@ -8,16 +8,16 @@ interface Props {
 }
 
 export const Buscador = ({ busca, setBusca }: Props) => {
-    return (
-        <div className={styles.buscador}>
-            <input
-                value={busca}
-                onChange={(evento) => setBusca(evento.target.value)}
-                placeholder="Buscar"
-                type="text"
-            />
+  return (
+    <div className={styles.buscador}>
+      <input
+        value={busca}
+        onChange={(evento) => setBusca(evento.target.value)}
+        placeholder="Buscar"
+        type="text"
+      />
 
-            <CgSearch size={20} color="#4C4D5E" />
-        </div>
-    );
+      <CgSearch size={20} color="#4C4D5E" />
+    </div>
+  );
 };
