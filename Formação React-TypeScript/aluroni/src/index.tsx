@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import "normalize.css";
 import "./index.css";
 
-import { AppRouter } from "Routes/routes";
+import { AppRouter } from "routes/routes";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement

@@ -1,13 +1,16 @@
 import { useEffect, useState } from "react";
+
 import cardapio from "data/cardapio.json";
 import styles from "./Itens.module.scss";
 
 import { Item } from "./Item";
 
+import { Cardapio } from "types/Prato";
+
 interface Props {
-    busca: string;
-    filtro: number | null;
-    ordenador: string;
+  busca: string;
+  filtro: number | null;
+  ordenador: string;
 }
 
 export const Itens = (props: Props) => {
@@ -24,15 +27,13 @@ export const Itens = (props: Props) => {
     return true;
   }
 
-  function ordenar(novaLista: typeof cardapio) {
+  function ordenar(novaLista: Cardapio) {
     switch (ordenador) {
     case "porcao":
       return novaLista.sort((a, b) => (a.size > b.size ? 1 : -1));
 
     case "qtd_pessoas":
-      return novaLista.sort((a, b) =>
-        a.serving > b.serving ? 1 : -1
-      );
+      return novaLista.sort((a, b) => (a.serving > b.serving ? 1 : -1));
 
     case "preco":
       return novaLista.sort((a, b) => (a.price > b.price ? 1 : -1));
