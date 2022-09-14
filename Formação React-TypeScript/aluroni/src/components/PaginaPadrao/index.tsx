@@ -1,9 +1,10 @@
-import styles from "./Header.module.scss";
-import stylesTema from "styles/Tema.module.scss";
-
+import React from "react";
 import { Outlet } from "react-router-dom";
 
-export const PaginaPadrao = () => {
+import styles from "./PaginaPadrao.module.scss";
+import stylesTema from "styles/Tema.module.scss";
+
+export const PaginaPadrao = ({ children }: { children?: React.ReactNode }) => {
   return (
     <>
       <header className={styles.header}>
@@ -12,6 +13,7 @@ export const PaginaPadrao = () => {
 
       <div className={stylesTema.container}>
         <Outlet />
+        {children}
       </div>
     </>
   );
