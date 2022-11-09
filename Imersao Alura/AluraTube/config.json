@@ -47,89 +47,89 @@
       }
     ],
 
-    "front-end": [
+    "ficção científica": [
       {
-        "title": "Jogo com JavaScript #01: Criando um Flappy Bird do ZERO!!!",
-        "url": "https://youtube.com/watch?v=jOAU81jdi-c",
-        "thumb": "https://img.youtube.com/vi/jOAU81jdi-c/hqdefault.jpg"
+        "title": "Vingadores Ultimato",
+        "url": "https://www.youtube.com/watch?v=g6ng8iy-l0U&t=5s",
+        "thumb": "https://img.youtube.com/vi/g6ng8iy-l0U/hqdefault.jpg"
       },
       {
-        "title": "Jogo com JavaScript #01: Criando um Flappy Bird do ZERO!!!",
-        "url": "https://www.youtube.com/watch?v=llF6vD-RljE",
-        "thumb": "https://img.youtube.com/vi/llF6vD-RljE/hqdefault.jpg"
+        "title": "Adão Negro",
+        "url": "https://www.youtube.com/watch?v=xqR0k-GA3Tg",
+        "thumb": "https://img.youtube.com/vi/xqR0k-GA3Tg/hqdefault.jpg"
       },
       {
-        "title": "A Primeira Aula de Flutter Que Todo Mundo Deveria Ter",
-        "url": "https://www.youtube.com/watch?v=J4BVaXkwmM8",
-        "thumb": "https://img.youtube.com/vi/J4BVaXkwmM8/hqdefault.jpg"
+        "title": "Homem-Aranha: Sem Volta Para Casa",
+        "url": "https://www.youtube.com/watch?v=CyiiEJRZjSU",
+        "thumb": "https://img.youtube.com/vi/CyiiEJRZjSU/hqdefault.jpg"
       },
       {
-        "title": "O QUE SÃO FRAMEWORKS E BIBLIOTECAS? QUAIS AS DIFERENÇAS?",
-        "url": "https://www.youtube.com/watch?v=dp0zB4n3MUs",
-        "thumb": "https://img.youtube.com/vi/dp0zB4n3MUs/hqdefault.jpg"
+        "title": "Aquaman",
+        "url": "https://www.youtube.com/watch?v=90bG43JcwRE",
+        "thumb": "https://img.youtube.com/vi/90bG43JcwRE/hqdefault.jpg"
       },
       {
-        "title": "Angular (O Vídeo que Você Precisava para Começar no Framework) // Dicionário do Programador",
-        "url": "https://www.youtube.com/watch?v=Yf0rC7dERjg",
-        "thumb": "https://img.youtube.com/vi/Yf0rC7dERjg/hqdefault.jpg"
+        "title": "Mortal Kombat",
+        "url": "https://www.youtube.com/watch?v=yzWWSKn_D14",
+        "thumb": "https://img.youtube.com/vi/yzWWSKn_D14/hqdefault.jpg"
       },
       {
-        "title": "Como Foi Programado um App Que Faz Mágica",
-        "url": "https://www.youtube.com/watch?v=I36seuWUe5s",
-        "thumb": "https://img.youtube.com/vi/I36seuWUe5s/hqdefault.jpg"
+        "title": "Bumblebee",
+        "url": "https://www.youtube.com/watch?v=86uz1pHRwf4",
+        "thumb": "https://img.youtube.com/vi/86uz1pHRwf4/hqdefault.jpg"
       },
       {
-        "title": "O que todo iniciante em Front End deveria aprender | Como manipular arrays e objetos em JavaScript",
-        "url": "https://www.youtube.com/watch?v=yS7AcF-xRUg",
-        "thumb": "https://img.youtube.com/vi/yS7AcF-xRUg/hqdefault.jpg"
+        "title": "The Witcher",
+        "url": "https://www.youtube.com/watch?v=tjujvMkqWe4",
+        "thumb": "https://img.youtube.com/vi/tjujvMkqWe4/hqdefault.jpg"
       },
       {
-        "title": "5 Erros Históricos do CSS",
-        "url": "https://www.youtube.com/watch?v=HNjkqONzGS0",
-        "thumb": "https://img.youtube.com/vi/HNjkqONzGS0/hqdefault.jpg"
+        "title": "Lúcifer",
+        "url": "https://www.youtube.com/watch?v=Nu5z3AT2jv8",
+        "thumb": "https://img.youtube.com/vi/Nu5z3AT2jv8/hqdefault.jpg"
       },
       {
-        "title": "Deploy de Front End ATUALIZADO! | O que eu uso para hospedagem de Front End",
-        "url": "https://www.youtube.com/watch?v=d9c0r-J6CdM",
-        "thumb": "https://img.youtube.com/vi/d9c0r-J6CdM/hqdefault.jpg"
+        "title": "Resident Evil: O Capítulo Final",
+        "url": "https://www.youtube.com/watch?v=hfby7XwoBl0",
+        "thumb": "https://img.youtube.com/vi/hfby7XwoBl0/hqdefault.jpg"
       }
     ],
 
-    "back-end": [
+    "anime": [
       {
-        "title": "Node JS: Construindo CRUDs com file system focando em serialização e JSON",
-        "url": "https://www.youtube.com/watch?v=dvd3pNYh7So",
-        "thumb": "https://img.youtube.com/vi/dvd3pNYh7So/hqdefault.jpg"
+        "title": "Bleach: Thousand-Year Blood War",
+        "url": "https://www.youtube.com/watch?v=fuwPuimFQkY",
+        "thumb": "https://img.youtube.com/vi/fuwPuimFQkY/hqdefault.jpg"
       },
       {
-        "title": "Node JS: Construindo CRUDs com file system focando em serialização e JSON",
-        "url": "https://www.youtube.com/watch?v=8q36rNS5yVo",
-        "thumb": "https://img.youtube.com/vi/8q36rNS5yVo/hqdefault.jpg"
+        "title": "Naruto: 20th Anniversary",
+        "url": "https://www.youtube.com/watch?v=QczGoCmX-pI",
+        "thumb": "https://img.youtube.com/vi/QczGoCmX-pI/hqdefault.jpg"
       },
       {
-        "title": "O que é o Java? #HipstersPontoTube",
-        "url": "https://www.youtube.com/watch?v=90NcVNsKGik",
-        "thumb": "https://img.youtube.com/vi/90NcVNsKGik/hqdefault.jpg"
+        "title": "Boku no Hero: 6ª Temporada",
+        "url": "https://www.youtube.com/watch?v=9Ai3YX_G0nM",
+        "thumb": "https://img.youtube.com/vi/9Ai3YX_G0nM/hqdefault.jpg"
       },
       {
-        "title": "O que é Machine Learning? #HipstersPontoTube",
-        "url": "https://www.youtube.com/watch?v=Iuz_jc96bQk",
-        "thumb": "https://img.youtube.com/vi/Iuz_jc96bQk/hqdefault.jpg"
+        "title": "Chainsaw Man",
+        "url": "https://www.youtube.com/watch?v=Cb9F59uvA_0",
+        "thumb": "https://img.youtube.com/vi/Cb9F59uvA_0/hqdefault.jpg"
       },
       {
-        "title": "A MELHOR linguagem de programação com Fabio Akita | #HipstersPontoTube",
-        "url": "https://www.youtube.com/watch?v=imB0QVoNrGc",
-        "thumb": "https://img.youtube.com/vi/imB0QVoNrGc/hqdefault.jpg"
+        "title": "Kimetsu no Yaiba: 3ª Temporada",
+        "url": "https://www.youtube.com/watch?v=a9tq0aS5Zu8",
+        "thumb": "https://img.youtube.com/vi/a9tq0aS5Zu8/hqdefault.jpg"
       },
       {
-        "title": "Top 5 libs que todo aplicativo Android deve ter com Alex Felipe | #HipstersPontoTube",
-        "url": "https://www.youtube.com/watch?v=ldRbnpy-qQs",
-        "thumb": "https://img.youtube.com/vi/ldRbnpy-qQs/hqdefault.jpg"
+        "title": "One Piece: Film Red",
+        "url": "https://www.youtube.com/watch?v=JvqcaQJgr-A",
+        "thumb": "https://img.youtube.com/vi/JvqcaQJgr-A/hqdefault.jpg"
       },
       {
-        "title": "O que é o C#? #HipstersPontoTube",
-        "url": "https://www.youtube.com/watch?v=0JWMVc1CqpA",
-        "thumb": "https://img.youtube.com/vi/0JWMVc1CqpA/hqdefault.jpg"
+        "title": "Boruto: Naruto Next Generations",
+        "url": "https://www.youtube.com/watch?v=9RMf61FRhe0",
+        "thumb": "https://img.youtube.com/vi/9RMf61FRhe0/hqdefault.jpg"
       }
     ]
   }

@@ -1,6 +1,7 @@
-import { Search } from "../Search";
+import { Search } from "./Search";
 
 import { StyledMenu } from "./styles";
+import { Switch } from "./Switch";
 
 export const Menu = ({ valorFiltro, setValorFiltro }) => {
   function Logo() {
@@ -56,6 +57,7 @@ export const Menu = ({ valorFiltro, setValorFiltro }) => {
         <Logo />
       </div>
       <Search valorFiltro={valorFiltro} setValorFiltro={setValorFiltro} />
+      <Switch />
     </StyledMenu>
   );
 };

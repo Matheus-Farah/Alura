@@ -3,7 +3,6 @@ import { useState } from "react";
 import { Menu } from "../components/Menu";
 import { Header } from "../components/Header";
 import { TimeLine } from "../components/TimeLine";
-import { CSSReset } from "../components/Styles/CSSReset";
 
 import config from "../../config.json";
 
@@ -12,7 +11,6 @@ function HomePage() {
 
   return (
     <>
-      <CSSReset />
       <div
         style={{
           display: "flex",
