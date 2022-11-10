@@ -2,7 +2,7 @@ import { useContext } from "react";
 
 import { ColorModeContext } from "../components/Menu/ColorMode";
 
-export const Video = () => {
+export default function Video() {
   const contexto = useContext(ColorModeContext);
 
   return (
@@ -12,4 +12,4 @@ export const Video = () => {
       <button onClick={() => contexto.toggleMode()}>Trocar Modo!</button>
     </div>
   );
-};
+}

@@ -5,6 +5,7 @@ import {
   ColorModeContext,
   ColorModeProvider,
 } from "../components/Menu/ColorMode";
+import { FormVideo } from "../components/FormVideo";
 
 import { CSSReset } from "../components/Styles/CSSReset";
 
@@ -40,6 +41,7 @@ function MyApp({ Component, pageProps }) {
     <ThemeProvider theme={theme[contexto.mode]}>
       <CSSReset />
       <Component {...pageProps} />
+      <FormVideo />
     </ThemeProvider>
   );
 }
