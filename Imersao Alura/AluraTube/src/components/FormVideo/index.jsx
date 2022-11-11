@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { StyledFormVideo } from "./styles";
 
+import { createClient } from "@supabase/supabase-js";
+
 function useForm() {
   const [values, setValues] = useState({ titulo: "", url: "" });
 
@@ -20,6 +22,16 @@ function useForm() {
   };
 }
 
+function getThumbnail(url) {
+  return `https://img.youtube..com/vi/${url.split("v=")[1]}/hqdefault.jpg`;
+}
+
+const PROJECT_URL = "https://mcezydyvgtadriopxugd.supabase.co";
+const PUBLIC_KEY =
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1jZXp5ZHl2Z3RhZHJpb3B4dWdkIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NjgxNzg0NjAsImV4cCI6MTk4Mzc1NDQ2MH0.OMFQ1eP3jMqW2hFE6mw2L8Pylj64HfEC9OaMWy1zh6w";
+
+const supabase = createClient(PROJECT_URL, PUBLIC_KEY);
+
 export const FormVideo = () => {
   const [formVisivel, setFormVisivel] = useState(false);
   const formCadastro = useForm();
@@ -38,6 +50,18 @@ export const FormVideo = () => {
         <form
           onSubmit={(e) => {
             e.preventDefault();
+
+            supabase
+              .from("Videos")
+              .insert({
+                title: formCadastro.values.titulo,
+                url: formCadastro.values.url,
+                thumb: getThumbnail(formCadastro.values.url),
+                playlist: "",
+              })
+              .then((oqueveio) => {})
+              .catch((err) => {});
+
             setFormVisivel(false);
             formCadastro.clearForm();
           }}
@@ -45,7 +69,7 @@ export const FormVideo = () => {
           <div>
             <button
               className="close-modal"
-              onClick={() => setFormVisisvel(false)}
+              onClick={() => setFormVisivel(false)}
             >
               X
             </button>

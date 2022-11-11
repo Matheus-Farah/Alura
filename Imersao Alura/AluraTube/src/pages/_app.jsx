@@ -11,9 +11,7 @@ import { CSSReset } from "../components/Styles/CSSReset";
 
 function ProviderWrapper(props) {
   return (
-    <ColorModeProvider initialMode={"light"}>
-      {props.children}
-    </ColorModeProvider>
+    <ColorModeProvider initialMode={"dark"}>{props.children}</ColorModeProvider>
   );
 }
 
