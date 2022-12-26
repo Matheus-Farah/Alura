@@ -17,6 +17,7 @@
 
 .active-menu .menu-bar {
   left: 0;
+  z-index: 1025;
 }
 
 .active-menu .overlay {

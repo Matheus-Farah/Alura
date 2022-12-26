@@ -1,8 +1,8 @@
+import { HttpClient } from '@angular/common/http';
+import { Injectable } from '@angular/core';
+import { catchError, mapTo, Observable, of, throwError } from 'rxjs';
 import { environment } from './../../environments/environment';
 import { TokenService } from './../autenticacao/token.service';
-import { catchError, mapTo, Observable, of, throwError } from 'rxjs';
-import { HttpClient, HttpHeaders } from '@angular/common/http';
-import { Injectable } from '@angular/core';
 import { Animais, Animal } from './animais';
 
 const API = environment.apiURL;
@@ -35,5 +35,25 @@ export class AnimaisService {
           return error.status === NOT_MODIFIED ? of(false) : throwError(error);
         })
       );
+  }
+
+  upload({
+    descricao,
+    permitirComentario,
+    arquivo,
+  }: {
+    descricao: string;
+    permitirComentario: boolean;
+    arquivo: File;
+  }) {
+    const formData = new FormData();
+    formData.append('description', descricao);
+    formData.append('allowComments', permitirComentario ? 'true' : 'false');
+    formData.append('imageFile', arquivo);
+
+    return this.http.post(`${API}/photos/upload`, formData, {
+      observe: 'events',
+      reportProgress: true,
+    });
   }
 }
